@@ -22,6 +22,10 @@
 - [JDK线程池](./java/concurrent/concurrent_thread_3/concurrent_thread_3.md)
 - [锁优化，无锁(CAS)，ThreadLocal](./java/concurrent/concurrent_thread_3/concurrent_thread_3.md)
 
+> other
+
+- [Btrace探索&OQL测试char占用大小](./java/other/btrace_OQL_char/btrace_OQL_char.md)
+
 ### traefik
 
 - [安装&start](./traefik/1_install_start/1_install_start.md)
@@ -72,5 +76,9 @@
 - [Linux_5](./Linux/learn_5/Linux_5.md)
 - [Linux_6](./Linux/learn_6/Linux_6.md)
 - [Linux_7](./Linux/learn_7/Linux_7.md)
+
+### 随笔
+
+- [IDEA NICE PLUGINS](./随笔/nice_idea_plugins/nice_idea_plugins.md)
 
 ### 
