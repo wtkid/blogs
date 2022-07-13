@@ -10,7 +10,7 @@ man: manual(操作说明)的简写。作用是查看某个文件或者指令的�
 
 > eg:man date
 
-![man_page](man_page.jpg)
+![man_page](./man_page.jpg)
 
 `上图中的DATE(1),date指的是date指令，后边的1指“一般用户可使用指令”，还有其他如下`：
 
@@ -57,17 +57,17 @@ man page的数据通产放在/usr/share/man这个牡蛎里，可以通过修改m
 
 -f 参数用来查找可用的指令或文件说明手册，并可用数字查看指定文档，如图所示。不加任何参数时默认查找第一个，搜寻的顺序记录在在配置文件/etc/man_db.conf中。
 
-![man_param_f.jpg](man_param_f.jpg)
+![man_param_f.jpg](./man_param_f.jpg)
 
-![man_num.jpg](man_num.jpg)
+![man_num.jpg](./man_num.jpg)
 
 -k 指令或文件模糊搜索
 
-![man_param_k.jpg](man_param_k.jpg)
+![man_param_k.jpg](./man_param_k.jpg)
 
 相关指令：
 
-![man_xiangguan.jpg](man_xiangguan.jpg)
+![man_xiangguan.jpg](./man_xiangguan.jpg)
 
 ## Info
 
@@ -83,7 +83,7 @@ Prev: 前一个节点，按“P”进入上一个节点
 
 `图解命令如下`
 
-![info_pic.jpg](info_pic.jpg)
+![info_pic.jpg](./info_pic.jpg)
 
 > 常用基本操作
 
