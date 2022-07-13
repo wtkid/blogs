@@ -49,6 +49,10 @@
 - [MINIO对象存储服务](./中间件/minio/minio.md)
 - [Deepin20下安装navicat15](./中间件/Deepin20下安装navicat15/Deepin20下安装navicat15.md)
 - [kafka](./中间件/kafka/kafka.md)
+- [Redis(4)-Redis集群](./中间件/redis/redis_cluster/redis_cluster.md)
+- [Redis(3)-Redis事件和服务器](./中间件/redis/redis_event_server/redis_event_server.md)
+- [Redis(2)-Redis数据库结构和持久化](./中间件/redis/redis_database_rdb_aof/redis_database_rdb_aof.md)
+- [Redis(1)-Redis数据结构](./中间件/redis/redis_data_structure/redis_data_structure.md)
 
 ### Linux
 
