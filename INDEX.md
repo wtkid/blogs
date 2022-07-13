@@ -43,7 +43,12 @@
 
 ### 中间件
 
-
+- [Harbor--docker私有仓库搭建](./中间件/harbor/harbor.md)
+- [gitlab-runner——CI的起点](./中间件/gitlab-runner-docker/gitlab-runner-docker.md)
+- [gitlab仓库搭建](./中间件/gitlab-install/gitlab.md)
+- [MINIO对象存储服务](./中间件/minio/minio.md)
+- [Deepin20下安装navicat15](./中间件/Deepin20下安装navicat15/Deepin20下安装navicat15.md)
+- [kafka](./中间件/kafka/kafka.md)
 
 ### Linux
 
