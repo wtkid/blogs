@@ -35,7 +35,8 @@
 
 ### 遇见和解决的一些问题
 
-
+- [关于限流和限频的思考(45033解决)](./一些问题/限频/限频.md)
+- [CopyOnWriteArrayList数据被写乱的问题](./一些问题/copyOnWriteArrayList/copyOnWriteArrayList.md)
 
 ### 中间件
 
