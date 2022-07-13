@@ -1,4 +1,25 @@
+> TIPS
+>
+> 如果图片无法加载的，请添加以下DNS解析到hosts文件
+> 
+> `199.232.28.133 raw.githubusercontent.com`
+
 ## 目录
+
+### K8S
+
+- [各栋概念及其他外部知识(0).md](./k8sInAction/各种概念及其他外部知识_0.md)
+
+### SSL
+
+
+### 遇见和解决的一些问题
+
+
+
+### 中间件
+
+
 
 ### Linux
 
@@ -9,3 +30,5 @@
 - [Linux_5](./Linux/learn_5/Linux_5.md)
 - [Linux_6](./Linux/learn_6/Linux_6.md)
 - [Linux_7](./Linux/learn_7/Linux_7.md)
+
+### 
