@@ -13,6 +13,10 @@
 - [jvm第三版部分知识点2](./JVM/jvm第三版部分知识点2/jvm第三版部分知识点2.md)
 - [jvm第三版部分知识点1](./JVM/jvm第三版部分知识点1/jvm第三版部分知识点1.md)
 
+### traefik
+
+- [安装&start](./traefik/1_install_start/1_install_start.md)
+
 ### K8S
 
 - [k8s-statefulSet(九)](./k8sInAction/9_k8s-statefulSet/9_k8s-statefulSet.md)
