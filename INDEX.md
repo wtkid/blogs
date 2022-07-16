@@ -1,11 +1,10 @@
 > TIPS
 >
 > 如果图片无法加载的，请添加以下DNS解析到hosts文件
-> 
+>
 > `199.232.28.133 raw.githubusercontent.com`
 
 ## 目录
-
 
 ### JVM
 
@@ -27,24 +26,6 @@
 - [Springboot-autoConfiguration原理](./spring/springboot-autoConfiguration/springboot-autoConfiguration.md)
 - [springboot-自定义starter](./spring/springboot-starter/springboot-starter.md)
 
-### JAVA
-
-> concurrent
-
-- [Amhadl和Gustafson定律和一些概念](./java/concurrent/concurrent_thread_1/concurrent_thread_1.md)
-- [线程基础](./java/concurrent/concurrent_thread_2/concurrent_thread_2.md)
-- [JDK线程池](./java/concurrent/concurrent_thread_3/concurrent_thread_3.md)
-- [锁优化，无锁(CAS)，ThreadLocal](./java/concurrent/concurrent_thread_3/concurrent_thread_3.md)
-
-> other
-
-- [Btrace探索&OQL测试char占用大小](./java/other/btrace_OQL_char/btrace_OQL_char.md)
-- [服务器文件下载](./java/other/file_download/file_download.md)
-
-### traefik
-
-- [traefik安装&start](./traefik/1_install_start/1_install_start.md)
-
 ### K8S
 
 - [(0)各种概念及其他外部知识](./k8sInAction/0_k8s-other/各种概念及其他外部知识_0.md)
@@ -57,6 +38,10 @@
 - [k8s-configmap&Secret(七)](./k8sInAction/7_k8s-configmap/7_k8s-configmap.md)
 - [k8s-deployment(八)](./k8sInAction/8_k8s-deployment/8_k8s-deployment.md)
 - [k8s-statefulSet(九)](./k8sInAction/9_k8s-statefulSet/9_k8s-statefulSet.md)
+
+### traefik
+
+- [traefik安装&start](./traefik/1_install_start/1_install_start.md)
 
 ### SSL
 
@@ -82,6 +67,20 @@
 - [gitlab-runner——CI的起点](./中间件/gitlab-runner-docker/gitlab-runner-docker.md)
 - [Harbor--docker私有仓库搭建](./中间件/harbor/harbor.md)
 
+### JAVA
+
+> concurrent
+
+- [Amhadl和Gustafson定律和一些概念](./java/concurrent/concurrent_thread_1/concurrent_thread_1.md)
+- [线程基础](./java/concurrent/concurrent_thread_2/concurrent_thread_2.md)
+- [JDK线程池](./java/concurrent/concurrent_thread_3/concurrent_thread_3.md)
+- [锁优化，无锁(CAS)，ThreadLocal](./java/concurrent/concurrent_thread_3/concurrent_thread_3.md)
+
+> other
+
+- [Btrace探索&OQL测试char占用大小](./java/other/btrace_OQL_char/btrace_OQL_char.md)
+- [服务器文件下载](./java/other/file_download/file_download.md)
+
 ### Linux
 
 - [Linux_1](./Linux/learn_1/Linux_1.md)
@@ -98,4 +97,4 @@
 - [Ajax跨域解决方案](./随笔/ajax_cross/ajax_cross.md)
 - [Base64图片](./随笔/base64/base64.md)
 
-### 
+###  
