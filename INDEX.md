@@ -43,7 +43,7 @@
 
 ### traefik
 
-- [安装&start](./traefik/1_install_start/1_install_start.md)
+- [traefik安装&start](./traefik/1_install_start/1_install_start.md)
 
 ### K8S
 

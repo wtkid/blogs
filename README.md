@@ -1,14 +1,17 @@
 # blogs
 
-学习笔记，在 [OSChina](https://my.oschina.net/wtkid) 也有相应的博客.
-
-**博客将陆续迁移至github**.
-
-[目录请移步这里](./INDEX.md)
+在 [OSChina](https://my.oschina.net/wtkid) 的博客将陆续迁移至当前github仓库.
 
 
+# 目录
 
-对OSChina失望了，技术博客频繁审核不通过.
+[目录-分类别](./INDEX.md)
+
+[目录-最近更新](./INDEX_DATE.md)
+
+## 随口一说
+
+对OSChina失望了，博客频繁审核不通过.
 
 我就纳了闷儿，这特么的哪里哪里违规了。
 
