@@ -39,6 +39,7 @@
 > other
 
 - [Btrace探索&OQL测试char占用大小](./java/other/btrace_OQL_char/btrace_OQL_char.md)
+- [服务器文件下载](./java/other/file_download/file_download.md)
 
 ### traefik
 
@@ -94,5 +95,6 @@
 ### 随笔
 
 - [IDEA NICE PLUGINS](./随笔/nice_idea_plugins/nice_idea_plugins.md)
+- [Ajax跨域解决方案](./随笔/ajax_cross/ajax_cross.md)
 
 ### 
