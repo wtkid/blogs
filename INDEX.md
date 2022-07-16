@@ -96,5 +96,6 @@
 
 - [IDEA NICE PLUGINS](./随笔/nice_idea_plugins/nice_idea_plugins.md)
 - [Ajax跨域解决方案](./随笔/ajax_cross/ajax_cross.md)
+- [Base64图片](./随笔/base64/base64.md)
 
 ### 
