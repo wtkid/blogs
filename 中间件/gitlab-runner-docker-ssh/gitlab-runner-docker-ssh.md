@@ -131,13 +131,24 @@ Host *
 
 挂载文件夹准备好之后，我们文件夹下面有两个文件，一个私钥文件，一个config文件。注意检查一下config文件哦！！！
 
+> 测试镜像Dockfile准备
+
+```dockerfile
+## Dockerfile
+FROM golang:1.16.0
+RUN ["apt-get","install","-y","openssh-client"]
+CMD ["sh"]
+```
+
+，from随便给个镜像就ok, 主要目的是为了安装一个ssh方便后续的测试，sh是为了不让容器退出，后续好进容器测试。
+
 > 启动容器测试
 
 这里随便启动一个容器就可以了，后续会进入容器，测试ssh是否正常。
 
 ```shell
 // 把我们准备好的ssh文件夹挂载为容器的.ssh文件夹
-# docker run -it -name sshtest -v /root/sshtest/ssh:/root/.ssh -d sshteet:v1
+# docker run -it --name sshtest -v /root/sshtest/ssh:/root/.ssh -d sshteet:v1
 // 进入容器
 # docker exec -it sshtest sh
 #$ ssh 192.168.2.12 "ls"
