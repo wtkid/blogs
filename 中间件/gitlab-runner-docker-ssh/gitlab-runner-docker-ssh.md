@@ -149,3 +149,5 @@ anaconda-ks.cfg
 有图有真相
 
 ![result_2](result_2.png)
+
+好了，ojbk了吧
