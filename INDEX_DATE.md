@@ -6,6 +6,7 @@
 
 ## 目录-最近更新
 
+- [gitlab-runner Docker模式下实现ssh,scp部署](./中间件/gitlab-runner-docker-ssh/gitlab-runner-docker-ssh.md)
 - [jvm第三版部分知识点3](./JVM/jvm第三版部分知识点3/jvm第三版部分知识点3.md)
 - [jvm第三版部分知识点2](./JVM/jvm第三版部分知识点2/jvm第三版部分知识点2.md)
 - [jvm第三版部分知识点1](./JVM/jvm第三版部分知识点1/jvm第三版部分知识点1.md)

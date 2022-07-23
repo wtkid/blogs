@@ -66,6 +66,7 @@
 - [gitlab仓库搭建](./中间件/gitlab-install/gitlab.md)
 - [gitlab-runner——CI的起点](./中间件/gitlab-runner-docker/gitlab-runner-docker.md)
 - [Harbor--docker私有仓库搭建](./中间件/harbor/harbor.md)
+- [gitlab-runner Docker模式下实现ssh,scp部署](./中间件/gitlab-runner-docker-ssh/gitlab-runner-docker-ssh.md)
 
 ### JAVA
 
