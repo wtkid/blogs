@@ -6,7 +6,25 @@
 
 这里有 [官方文档](https://docs.gitlab.com/ee/ci/examples/deployment/composer-npm-deploy.html) .整体比较简单。
 
-啰嗦几句，关于ssh的原理就不多说了，ssh主要是依靠非对称加密来实现client和server端的免密登陆认证
+啰嗦几句，关于ssh的原理就不多说了，ssh主要是依靠非对称加密来实现client和server端的免密登陆认证。
+
+### 主机公钥确认StrictHostKeyChecking
+
+主机我们在用 ssh 登录到远程服务器时，正常情况下 ssh 直接执行过去了是会有询问的，怎么去应答这个`询问`呢，这个时候就需要用到 ssh 的非交互方式登录 `StrictHostKeyChecking`。该属性取值及含义如下:
+
+```properties
+no: 最不安全的级别，当然也没有那么多烦人的提示，相对安全的内网建议使用。如果连接server的key在本地不存在，那么就自动添加到文件中（默认是known_hosts），并且给出一个警告。
+ask: 默认的级别，就是出现刚才的提示了。如果连接和key不匹配，给出提示，并拒绝登录。
+yes: 最安全的级别，如果连接与key不匹配，就拒绝连接，不会提示详细信息。
+```
+
+这个值可以放到配置文件中，也可以作为ssh连接时的参数传递。在`CI/CD`的官方文档中是以配置文件的形式，我的ci文件是以参数的方式，主要是方便。在最后面的升级模式中也演示了配置文件的方式。
+
+> 参数形式
+
+```shell
+ssh -o StrictHostKeyChecking=no -i $rsaPath -p ${SERVER_PORT} ${SERVER}
+```
 
 ## 官方Varibles私钥模式
 
@@ -65,13 +83,12 @@ job_build:
     - eval $(ssh-agent -s)
     - mkdir -p ~/.ssh
     - ssh-add <(echo "$SERVER_SSH_PRIV_KEY")
-    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
-    - ssh wangtao@192.168.66.66 "ls"
+    - ssh -o StrictHostKeyChecking=no wangtao@192.168.66.66 "ls"
   only:
     - main
 ```
 
-脚本内容比较简单，大部分的含义就不解释了，说一下最后一行`echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config`，这一行我们在容器中禁用主机检查(这个命令时ci容器执行的，所以需要提示一下这个地方时禁用的容器的主机检查，不是目标服务器的!!)，当我们第一次连接到服务器时，我们不要求用户接受，因为每个job在执行时都等于第一次连接，所以我们需要禁用这个。
+脚本内容比较简单，大部分的含义就不解释了，再啰嗦一下最后一行ssh连接的参数。这一行我们在容器中禁用主机检查(这个命令时ci容器执行的，所以需要提示一下这个地方时禁用的容器的主机检查，不是目标服务器的!!)，当我们第一次连接到服务器时，我们不要求用户接受，因为每个job在执行时都等于第一次连接，所以我们需要禁用这个。
 
 ### Step4: 目标成果
 
